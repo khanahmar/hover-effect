@@ -10,6 +10,7 @@ body {
   justify-content: center;
   height: 100vh;
   overflow: hidden;
+  flex-direction: column;
 }
 
 .container {
@@ -23,12 +24,26 @@ body {
 .square {
   background-color: #1d1d1d;
   box-shadow: 0 0 2px black;
-  height: 16px;
-  width: 16px;
+  height: 12px;
+  width: 12px;
   margin: 2px;
   transition: 2s ease;
 }
 
 .square:hover {
   transition-duration: 0s;
+}
+#inp {
+  width: 250px;
+  height: 30px;
+  margin-bottom: 50px;
+  padding: 5px;
+  font-size: 20px;
+  border: none;
+  border-radius: 3px;
+  box-shadow: 0 2px 8px rgb(0, 218, 0);
+}
+
+#inp:focus {
+  outline: none;
 }
