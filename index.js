@@ -15,6 +15,7 @@ const color = [
   "#03ff02",
   "#ffff02",
   "#ff5418",
+  "#ff2318",
 ];
 
 input.addEventListener("keydown", (e) => {
